@@ -21,12 +21,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_08_02_070132) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "skills", force: :cascade do |t|
-    t.string "title"
-    t.string "percent_utilized"
-    t.string "integer"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+  
+  
 
 end
